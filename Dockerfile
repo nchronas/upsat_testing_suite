@@ -9,5 +9,7 @@ ADD . /App
 
 RUN git clone https://github.com/librespacefoundation/packetCraft.git
 
+RUN gem install serialport
+
 CMD ["ruby", "/App/helloworld.rb"]
  
